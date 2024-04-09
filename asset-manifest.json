@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/front/static/css/main.d9c63bac.css",
-    "main.js": "/front/static/js/main.e364ba12.js",
+    "main.css": "/front/static/css/main.9a78d063.css",
+    "main.js": "/front/static/js/main.3eeab26c.js",
     "static/media/banner_kids.png": "/front/static/media/banner_kids.fff815a581793a7380fb.png",
     "static/media/banner_women.png": "/front/static/media/banner_women.5a27fc4e4533e57e4676.png",
     "static/media/banner_mens.png": "/front/static/media/banner_mens.eed7197157196f319b17.png",
@@ -45,11 +45,11 @@
     "static/media/product_35.png": "/front/static/media/product_35.073b8b5de77cfc979821.png",
     "static/media/hand_icon.png": "/front/static/media/hand_icon.9c7487cecb600f30901b.png",
     "index.html": "/front/index.html",
-    "main.d9c63bac.css.map": "/front/static/css/main.d9c63bac.css.map",
-    "main.e364ba12.js.map": "/front/static/js/main.e364ba12.js.map"
+    "main.9a78d063.css.map": "/front/static/css/main.9a78d063.css.map",
+    "main.3eeab26c.js.map": "/front/static/js/main.3eeab26c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9c63bac.css",
-    "static/js/main.e364ba12.js"
+    "static/css/main.9a78d063.css",
+    "static/js/main.3eeab26c.js"
   ]
 }
