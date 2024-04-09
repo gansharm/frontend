@@ -24,3 +24,26 @@
     display: flex;
     gap: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+    .popular {
+        height: auto;
+        padding: 20px;
+    }
+
+    .popular h1 {
+        font-size: 30px;
+    }
+
+    .popular hr {
+        width: 150px;
+        height: 4px;
+    }
+
+    .popular-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 30px;
+    }
+}

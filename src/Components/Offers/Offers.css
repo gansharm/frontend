@@ -47,3 +47,35 @@
     justify-content:flex-end;
     padding-top:50px;
 }
+
+@media only screen and (max-width: 600px) {
+    .offers {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 100px;
+    }
+
+    .offers-left {
+        padding-right: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .offers-left h1 {
+        font-size: 60px;
+    }
+
+    .offers-left p {
+        font-size: 18px;
+    }
+
+    .offers-left button {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .offers-right {
+        display: none;
+    }
+}

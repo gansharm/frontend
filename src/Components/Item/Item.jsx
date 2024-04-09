@@ -1,18 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min'
-import './Item.css'
+// import ShopContextProvider, { ShopContext } from '../../Context/ShopContext'
+ import './Item.css'
+import ShopContextProvider from '../../Context/ShopContext'
+import { Link } from 'react-router-dom'
 export const Item = (props) => {
+  // const product = useContext(ShopContext)
   return (
-    <div className='item'>
-        <Link to={`/product/${props.id}`}><img src={props.image} alt="" /></Link>
-        <p>{props.name}</p>
-        <div className='item-proce-new'>
-            {props.new_price}
+     <div className='item'>
+        <Link to={`/product/${props.id}`}><img onClick={window.scrollTo(0,0)} src= {props.image} alt="" /></Link>
+        <p>${props.name}</p>
+        <div className='item-price-new'>
+            ${props.new_price}
         </div>
         <div className="item-price-old">
-            {props.old_price}
+            ${props.old_price}
         </div>
     </div>
-  )
+   )
 }
  

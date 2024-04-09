@@ -3,6 +3,7 @@
     justify-content: space-around;
     padding: 16px;
     box-shadow: 0 1px 3px -2px black;
+    align-items: center;
 }
 
 .nav-logo{
@@ -25,7 +26,12 @@
     font-size: 20px;
     font-weight: 500;
 }
-
+.nav-dropdown{
+     margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    display: none;
+}
 .nav-menu li{
     display: flex;
     flex-direction: column;
@@ -78,6 +84,116 @@
     background: red;
     color: white;
 }
-
+.nav-dropdown{
+    display: none;
+}
  
+@media(max-width:1024px){
+    .navbar{
+        padding: 12px 50px;
+    }
+    
+    .nav-menu{
+        gap: 30px;
+        font-size: 16px;
+    }
+    .nav-login-cart img{
+        gap: 30px;
+    }
+    .nav-login-cart button{
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .nav-cart-count{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width: 800px) {
+    .navbar {
+         padding: 10px 0px;
+    }
+
+    .nav-menu {
+        display:none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        top: 70px;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
+    .nav-dropdown{
+        display: block;
+        width: 30px;
+        rotate: -90deg;
+        transition: 0.5sec;
+    }
+
+    /* .nav-login-cart {
+        gap: 20px;
+    } */
+
+    .nav-login-cart button {
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .navbar-dropdown.open{
+        transform: rotate(90deg);
+    }
+}
+
+@media(max-width:500px){
+    .navbar{
+        /* justify-content: space-around; */
+        width: 8px 0px;
+        /* padding-right: 50px;
+        padding-left: 20px; */
+        gap: 0px;
+    }
+    .nav-logo{
+        transform: scale(0.6);
+        padding-left: 10px;
+    }
+     
+     
+    .nav-menu{
+        height: 70px;
+        top: 70px;
+    }
+    .nav-login-cart{
+        margin-right:50px;
+        transform: scale(0.8);
+    }
+    
+    .nav-cart-count {
+        margin-left: -75px;
+        /* margin-top: -10px; */
+        font-size: 10px;
+        width: 16px;
+        height: 16px;
+    }
+    
+    .nav-login-cart button {
+        width: auto;
+        height: auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-size: 14px;
+    }
+    .nav-login-cart img{
+        margin-right: 20px;
+    }
+}
+
  
